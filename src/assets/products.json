@@ -1,0 +1,93 @@
+[
+    { 
+        "id": "1",
+        "name": "Apple iPhone 12 Mini",
+        "color": "Red",
+        "size":  "64",
+        "price": "729.00",
+        "describe": "Apple iPhone 12 Mini. Cinema-grade Dolby Vision video recording, and playback.",
+        "image": "../../../assets/1/1.png ../../../assets/1/2.png ../../../assets/1/3.png"
+    },
+    {
+        "id": "2",
+        "name":"Apple iPhone 12",
+        "color":"Green",
+        "size":"64",
+        "price":"829.00",
+        "describe":"Apple iPhone 12. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/2/1.png ../../../assets/2/2.png ../../../assets/2/3.png"
+    },
+    {
+        "id":"3",
+        "name":"Apple iPhone 12 Pro",
+        "color":"Gold",
+        "size":"256",
+        "price":"1099.00",
+        "describe":"Apple iPhone 12 Pro. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/3/1.png ../../../assets/3/2.png ../../../assets/3/3.png"
+    },
+    {
+        "id":"4",
+        "name":"Apple iPhone 12 Pro max",
+        "color":"Graphite",
+        "size":"256",
+        "price":"1099.00",
+        "describe":"Apple iPhone 12 Pro max. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/4/1.png ../../../assets/4/2.png ../../../assets/4/3.png"
+    },
+    {
+        "id":"5",
+        "name":"Samsung S21 Ultra",
+        "color":"White",
+        "size":"128",
+        "price":"999.00",
+        "describe":"Samsung S21 Ultra. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/5/1.png"
+    },
+
+    {
+        "id":"6",
+        "name":"Samsung S21",
+        "color":"Pink",
+        "size":"128",
+        "price":"719.00",
+        "describe":"Samsung S21. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/6/1.png ../../../assets/6/2.png ../../../assets/6/3.png"
+    },
+    {
+        "id":"7",
+        "name":"Samsung S21",
+        "color":"Black",
+        "size":"128",
+        "price":"719.00",
+        "describe":"Samsung S21. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/7/1.png ../../../assets/7/2.png ../../../assets/7/3.png"
+    },
+    {
+        "id":"8",
+        "name":"Samsung S20 FE",
+        "color":"Orange",
+        "size":"64",
+        "price":"450.00",
+        "describe":"Samsung S20 FE. Cinema-grade Dolby Vision video recording, and playback.','Samsung",
+        "image":"../../../assets/8/1.png ../../../assets/8/2.png ../../../assets/8/3.png"
+    },
+    {
+        "id":"9",
+        "name":"Samsung S20 FE",
+        "color":"Red",
+        "size":"64",
+        "price":"299.00",
+        "describe":"Samsung S20 FE. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/9/1.png ../../../assets/9/2.png ../../../assets/9/3.png"
+    },
+    {
+        "id":"10",
+        "name":"Samsung S20 FE",
+        "color":"Navy",
+        "size":"64",
+        "price":"1799.00",
+        "describe":"Samsung S20 FE. Cinema-grade Dolby Vision video recording, and playback.",
+        "image":"../../../assets/10/1.png ../../../assets/10/2.png ../../../assets/10/3.png"
+    }
+]

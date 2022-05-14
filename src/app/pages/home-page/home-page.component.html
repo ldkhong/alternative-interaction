@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary text-white">
+    <a style="font-size:30px;" class="navbar-brand">MyShoppingWebapp</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" (click)="allProducts()">Home </a>
+        <a class="nav-item nav-link" (click)="viewCart()">Cart</a>
+      </div>
+    </div>
+</nav>
+
+<div class="container">
+<div class="row">
+    <div class="col-6 align-self-center">
+        <app-handtracker (onPrediction)="prediction($event)"></app-handtracker>
+        <div [innerHTML]="gesture"></div>   
+        <div>
+            <h5 style="width:200px; text-align: center;">Instructions</h5>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Open Hand:</b> Go Next</li>
+                <li class="list-group-item"><b>Closed Hand:</b> Go Prev</li>
+                <li class="list-group-item"><b>Hand Poiting:</b> Add item to your Cart</li>
+                <li class="list-group-item"><b>Two Open Hands:</b> View all Products</li>
+                <li class="list-group-item"><b>Two Closed Hands:</b> View Product Detail </li>
+                <li class="list-group-item"><b>Hand Pinching:</b> View Cart</li>
+                <!--Customize Hand gesture-->
+                <li class="list-group-item"><b>Open Hand and Closed Hand:</b> Increase Quantity</li>
+                <li class="list-group-item"><b>Hand Pinching and Closed Hand:</b> Decrease Quantity</li>
+            </ul>
+        </div>  
+      </div>
+    <div class="col-6 align-self-center">
+       <app-route-page [products]="products" [gesture]="gesture" [currentPage]="currentPage" [currentId]="currentActive"></app-route-page>
+       <div style="width:400px;">
+        <button [style.display]="show" style="margin: 20px auto;" type="button" class="btn btn-primary" (click)="viewDetail()">View Detail</button>
+      </div>
+    </div>
+</div> 
+</div>

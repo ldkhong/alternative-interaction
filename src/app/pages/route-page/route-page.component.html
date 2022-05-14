@@ -1,0 +1,14 @@
+
+<app-carousel *ngIf="currentPage == 'allProducts'" carouselId="AllPhones" [currentActive]="currentId" [products]="products"> </app-carousel>
+
+<div *ngIf="currentPage == 'singleProduct'">
+    <app-carousel carouselId="SinglePhone" [currentActive]="currentId" [imgs]="products[currentId-1].image"> </app-carousel>
+    <div>
+        <p><b>Desription:</b> {{products[currentId-1].describe}}</p>
+        <p><b>Color:</b> {{products[currentId].color}} </p>
+        <p><b>Size:</b> {{products[currentId-1].size}}GB</p>
+        <p><b>Price:</b>${{products[currentId-1].price}}.00</p>
+    </div>
+</div>
+
+<app-cart-page *ngIf="currentPage == 'cart'" > </app-cart-page>

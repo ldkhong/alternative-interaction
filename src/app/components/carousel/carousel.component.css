@@ -1,0 +1,22 @@
+.carousel {
+    margin-top:20px;
+	background-color: gray;
+	width: 400px;
+}
+
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}

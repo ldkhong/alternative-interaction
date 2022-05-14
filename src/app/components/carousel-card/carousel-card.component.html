@@ -1,0 +1,22 @@
+<!--TODO: bind href to the appropriate local URL for the album/artist/song.-->
+<!--a href="{{'http://localhost:4200/single-product/' + product.id}}"-->
+<div *ngIf="product">
+    <a href="#">
+        <!--TODO bind src with the album/artist/song image URL-->
+        <img style="max-height: 500px;" class="d-block w-100" [src]="product.image[0]">
+        <div class="carousel-caption d-none d-md-block">
+            <!--TODO: populate h5 with the album/artist/song name-->
+            <h5>{{product.name}} - {{product.size}}GB</h5>
+        </div>
+    </a>
+
+    <div style="width:400px;">
+        <h5 style="display: block; margin: auto; margin-bottom: 20px; text-align: center;">${{product.price}}</h5>
+    </div>
+</div>
+
+<div *ngIf="img">
+        <img style="max-height: 400px;" class="d-block w-100" [src]="img">
+</div>
+
+

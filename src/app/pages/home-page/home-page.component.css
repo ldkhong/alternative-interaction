@@ -1,0 +1,10 @@
+.list-group-item {
+    padding: 0.25rem 0.75rem;
+    width:300px;
+}
+.nav-item{
+    font-size: 24px;
+}
+.nav-item:hover{
+    color: white;
+}
